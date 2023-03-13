@@ -43,3 +43,5 @@ found to be quite low.
 7. Applying the modified K-NN algorithm , In this model 5 hyperparameters are used which are , n-neighbours , weight , leaf-size, algorithm , metric. The Gaussian kernel is designed in weight.Algorithm can be auto, kd-tree , ball-tree , brute. <br>
 8. This 5 parameters are converted to dictionary. It is provided to grid search then grid search will select the best parameters. <br>
 9. Now this will fit the model and train the dataset after that Model can calculate the validation and training , testing score.<br>
+![image](https://user-images.githubusercontent.com/77020179/224601668-d8c3acbb-6d5f-4b2f-952e-00eed7ed0704.png)
+
