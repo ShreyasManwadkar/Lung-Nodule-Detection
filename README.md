@@ -33,32 +33,13 @@ accuracy and time detection of the optimized algorithm is
 found to be quite low.
 
 
-Steps Involved are:
-The first step is image acquisition, which involves 
-obtaining an image dataset.
-2. The dataset is then divided into two parts: training 
-and testing.
-3. The dataset is further normalized using the Min-Max scalar algorithm and is divided into negative 
-and positive cases.
-4. Image preprocessing is done using the standard 
-scalar algorithm, which standardizes the 
-hyperparameters by subtracting the mean and 
-scaling to unit variance.
-5. The model then downsamples the training and 
-testing data.
-6. .Apply CV2 BRISK Algorithm. CV2 BRISK 
-algorithm is used to select features of an image in a 
-given dataset which is turned into grayscale. And 
-then random images are taken to obtain binary 
-features.
-7. Applying the modified K-NN algorithm , In this 
-model 5 hyperparameters are used which are , n-neighbours , weight , leaf-size, algorithm , metric. 
-The Gaussian kernel is designed in 
-weight.Algorithm can be auto, kd-tree , ball-tree , 
-brute. 
-8. This 5 parameters are converted to dictionary. It is 
-provided to grid search then grid search will select 
-the best parameters. 
-9. Now this will fit the model and train the dataset after 
-that Model can calculate the validation and training 
-, testing score
+<b>Steps Involved are:<b><br>
+1.The first step is image acquisition, which involves obtaining an image dataset.<br>
+2. The dataset is then divided into two parts: training and testing.<br>
+3. The dataset is further normalized using the Min-Max scalar algorithm and is divided into negative and positive cases.<br>
+4. Image preprocessing is done using the standard scalar algorithm, which standardizes the hyperparameters by subtracting the mean and scaling to unit variance.<br>
+5. The model then downsamples the training and testing data.<br>
+6. Apply CV2 BRISK Algorithm. CV2 BRISK algorithm is used to select features of an image in a given dataset which is turned into grayscale. And then random images are taken to obtain binary features.<br>
+7. Applying the modified K-NN algorithm , In this model 5 hyperparameters are used which are , n-neighbours , weight , leaf-size, algorithm , metric. The Gaussian kernel is designed in weight.Algorithm can be auto, kd-tree , ball-tree , brute. <br>
+8. This 5 parameters are converted to dictionary. It is provided to grid search then grid search will select the best parameters. <br>
+9. Now this will fit the model and train the dataset after that Model can calculate the validation and training , testing score.<br>
